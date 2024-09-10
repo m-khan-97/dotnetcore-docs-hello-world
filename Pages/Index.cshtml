@@ -1,12 +1,30 @@
 ﻿@page
 @model IndexModel
-@{    
+@{
     ViewData["Title"] = "Home page";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Hello World from .NET 8</h1>
-    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+<div class="container">
+    <!-- University Name -->
+    <div class="text-center" style="background-color: #7C0A02; color: white; padding: 20px; border-radius: 8px;">
+        <h1 class="display-4">Middlesex University London</h1>
+    </div>
+
     <hr />
-    <div>Host operating system: @Model.OSVersion</div>
+
+    <!-- Project and Personal Information -->
+    <div class="text-center" style="padding: 20px;">
+        <h2>Project Name: Automating Cloud Infrastructure using Ansible and Terraform</h2>
+        <h3>Your Name: Muhammad Ibrahim</h3>
+        <h3>Supervisor: Dr. Shahedur Rehman</h3>
+    </div>
+
+    <hr />
+
+    <!-- Success Message -->
+    <div class="text-center" style="background-color: #f4f4f4; color: #333; padding: 40px; border-radius: 8px;">
+        <h1 class="display-4">Congratulations!</h1>
+        <p class="lead">Successfully Deployed Infrastructure Using Ansible and Terraform.</p>
+    </div>
 </div>
+
